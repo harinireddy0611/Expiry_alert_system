@@ -1,0 +1,43 @@
+/* src/styles/reminders.css */
+
+/* Container for the reminders component */
+.reminders-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+/* Title of the reminders section */
+.reminders-container h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* List of reminders */
+.reminders-list {
+  margin-top: 1.5rem;
+}
+
+/* Individual reminder item */
+.reminder-item {
+  background: #f9f9f9;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+/* Reminder details */
+.reminder-details p {
+  margin: 0.5rem 0;
+}
+
+/* Error message */
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}

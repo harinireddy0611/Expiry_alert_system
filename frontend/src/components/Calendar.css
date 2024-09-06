@@ -1,0 +1,28 @@
+/* src/styles/calendar.css */
+
+.calendar-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.calendar-container h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+}
+
+.react-calendar__tile.highlight {
+  background: #ffcd56 !important;
+  color: white !important;
+}

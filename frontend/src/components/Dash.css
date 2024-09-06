@@ -1,0 +1,217 @@
+/* General Styles */
+
+  /* Dashboard Container */
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+    
+  }
+/*   
+  /* Stats Item */
+  /* .stats-item {
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+    /* text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    font-size: 40px;
+  } */ 
+  
+  /* Calendar and Document Container */
+  /* .calendar-container,
+  .document-overview {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Added box shadow */
+    /* flex: 1;
+    margin: 0 10px;
+    
+    display: flex;
+    flex-direction: column;
+  } 
+   */
+  /* Dashboard Container */
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Dashboard Header */
+  .dashboard-header {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Stats Grid */
+  /* .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 20px;
+    
+  }
+   */
+  /* Stats Item */
+  /* .stats-item {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+     }
+  
+  .expired-items {
+    background-color: #fee2e2;
+    box-shadow: 0 4px 5px #fee2e2;
+  }
+  
+  .in-7-days {
+    background-color: #fef08a;
+    box-shadow: 0 4px 5px #fef08a;
+  }
+  
+  .in-30-days {
+    background-color: #d1fae5;
+    box-shadow: 0 4px 5px #d1fae5;
+  }
+  
+  .total-items {
+    background-color: #e0f2fe;
+    box-shadow: 0 4px 5px #e0f2fe;
+  }
+  
+  .stats-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .stats-title .icon {
+    margin-right: 8px;
+  }
+  
+  .stats-number {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+  
+  /* Main Grid */
+  /* .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px;
+    flex: 1; Take up the remaining height */
+    /* justify-content: space-between;
+  }
+  
+  .calendar-container,
+  .document-overview {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;  
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+  }
+   */
+  /* Calendar and Document Headers */
+  /* .calendar-header,
+  .document-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+   */
+  /* Calendar and Document Tables */
+  /* .calendar-table,
+  .document-table {
+    width: 100%;
+    border-collapse: collapse;
+    flex: 1;
+  }
+  
+  .calendar-table th,
+  .calendar-table td,
+  .document-table th,
+  .document-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .highlight {
+    background-color: #fee2e2;
+  }
+    */
+    .dashboard-container {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 1200px;
+      margin: 2rem auto;
+    }
+    
+    .dashboard-header {
+      font-size: 55px;
+      margin-bottom: 1.5rem;
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    
+    .stats-item {
+      background: #f9f9f9;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      text-align: center;
+    }
+    
+    .stats-title {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .stats-number {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    
+    .charts-container {
+      display: flex;
+      flex-direction: row;
+      /* grid-template-columns: 1px 1px; */
+      height: 600px;
+      width: 400px;
+      gap: 200px;
+    }

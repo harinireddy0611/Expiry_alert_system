@@ -1,0 +1,19 @@
+.App {
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* App.css */
+.right{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+.left
+{ 
+  background-color:  #fff;
+}
