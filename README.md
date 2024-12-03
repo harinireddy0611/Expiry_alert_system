@@ -22,7 +22,7 @@ The Expiry Alert System is a web application built with React.js to help reduce 
 
 ## Repository
 
-You can access the project's repository [here](https://github.com/yourusername/expiry-alert-system).
+You can access the project's repository [here](https://github.com/harinireddy0611/Expiry_alert_system).
 
 ## Installation Guide
 
